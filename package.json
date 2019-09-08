@@ -1,0 +1,34 @@
+{
+  "name": "git-stalk",
+  "version": "1.0.0",
+  "description": "Get a GitHub user information (or stalk them) from your terminal!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacc/git-stalk.git"
+  },
+  "keywords": [
+    "github-api",
+    "cli",
+    "gitstalk"
+  ],
+  "author": "Jack LaFond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacc/git-stalk/issues"
+  },
+  "homepage": "https://github.com/jacc/git-stalk#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "meow": "^5.0.0",
+    "node-fetch": "^2.6.0",
+    "ora": "^3.4.0",
+    "terminal-link": "^2.0.0"
+  },
+  "bin": {
+    "stalk": "./lib/cli.js"
+  }
+}
